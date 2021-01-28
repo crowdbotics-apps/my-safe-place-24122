@@ -20,14 +20,6 @@ class Category(models.Model):
 
 class Subcategory(models.Model):
     "Generated Model"
-    name = models.CharField(
-        max_length=255,
-    )
-    category = models.ForeignKey(
-        "task_category.Category",
-        on_delete=models.CASCADE,
-        related_name="subcategory_category",
-    )
     description = models.TextField(
         null=True,
         blank=True,
