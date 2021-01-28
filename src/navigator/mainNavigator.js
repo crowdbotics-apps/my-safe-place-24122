@@ -14,7 +14,6 @@ import Settings197856Navigator from '../features/Settings197856/navigator';
 import UserProfile197849Navigator from '../features/UserProfile197849/navigator';
 import Settings197848Navigator from '../features/Settings197848/navigator';
 import Settings197846Navigator from '../features/Settings197846/navigator';
-import SignIn2197844Navigator from '../features/SignIn2197844/navigator';
 import UserProfile197831Navigator from '../features/UserProfile197831/navigator';
 import Settings197801Navigator from '../features/Settings197801/navigator';
 import UserProfile197791Navigator from '../features/UserProfile197791/navigator';
@@ -35,7 +34,6 @@ Settings197856: { screen: Settings197856Navigator },
 UserProfile197849: { screen: UserProfile197849Navigator },
 Settings197848: { screen: Settings197848Navigator },
 Settings197846: { screen: Settings197846Navigator },
-SignIn2197844: { screen: SignIn2197844Navigator },
 UserProfile197831: { screen: UserProfile197831Navigator },
 Settings197801: { screen: Settings197801Navigator },
 UserProfile197791: { screen: UserProfile197791Navigator },
