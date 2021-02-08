@@ -4,7 +4,6 @@ export const installed_blueprints = [
 { name: 'Additem202450', human_name: 'AddItem', access_route: 'Additem202450'},
 { name: 'Maps202446', human_name: 'Maps', access_route: 'Maps202446', icon: 'map'},
 { name: 'UserProfile202442', human_name: 'User Profile', access_route: 'UserProfile202442'},
-{ name: 'BlankScreen7197970', human_name: 'Blank Screen 7', access_route: 'BlankScreen7197970'},
 { name: 'BlankScreen6197967', human_name: 'Blank Screen 6', access_route: 'BlankScreen6197967'},
 { name: 'BlankScreen5197966', human_name: 'Blank Screen 5', access_route: 'BlankScreen5197966'},
 { name: 'BlankScreen82197965', human_name: 'Blank Screen 82', access_route: 'BlankScreen82197965'},
