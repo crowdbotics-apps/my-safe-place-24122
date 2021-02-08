@@ -6,100 +6,100 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('task', '0001_initial'),
+        ("task", "0001_initial"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='message',
-            name='customer',
+            model_name="message",
+            name="customer",
         ),
         migrations.RemoveField(
-            model_name='message',
-            name='message',
+            model_name="message",
+            name="message",
         ),
         migrations.RemoveField(
-            model_name='message',
-            name='tasker',
+            model_name="message",
+            name="tasker",
         ),
         migrations.RemoveField(
-            model_name='message',
-            name='timestamp_created',
+            model_name="message",
+            name="timestamp_created",
         ),
         migrations.RemoveField(
-            model_name='rating',
-            name='rating',
+            model_name="rating",
+            name="rating",
         ),
         migrations.RemoveField(
-            model_name='rating',
-            name='review',
+            model_name="rating",
+            name="review",
         ),
         migrations.RemoveField(
-            model_name='rating',
-            name='tasker',
+            model_name="rating",
+            name="tasker",
         ),
         migrations.RemoveField(
-            model_name='rating',
-            name='timestamp_created',
+            model_name="rating",
+            name="timestamp_created",
         ),
         migrations.RemoveField(
-            model_name='task',
-            name='category',
+            model_name="task",
+            name="category",
         ),
         migrations.RemoveField(
-            model_name='task',
-            name='customer',
+            model_name="task",
+            name="customer",
         ),
         migrations.RemoveField(
-            model_name='task',
-            name='details',
+            model_name="task",
+            name="details",
         ),
         migrations.RemoveField(
-            model_name='task',
-            name='frequency',
+            model_name="task",
+            name="frequency",
         ),
         migrations.RemoveField(
-            model_name='task',
-            name='is_confirmed',
+            model_name="task",
+            name="is_confirmed",
         ),
         migrations.RemoveField(
-            model_name='task',
-            name='location',
+            model_name="task",
+            name="location",
         ),
         migrations.RemoveField(
-            model_name='task',
-            name='size',
+            model_name="task",
+            name="size",
         ),
         migrations.RemoveField(
-            model_name='task',
-            name='status',
+            model_name="task",
+            name="status",
         ),
         migrations.RemoveField(
-            model_name='task',
-            name='tasker',
+            model_name="task",
+            name="tasker",
         ),
         migrations.RemoveField(
-            model_name='task',
-            name='timestamp_confirmed',
+            model_name="task",
+            name="timestamp_confirmed",
         ),
         migrations.RemoveField(
-            model_name='task',
-            name='timestamp_created',
+            model_name="task",
+            name="timestamp_created",
         ),
         migrations.RemoveField(
-            model_name='tasktransaction',
-            name='date',
+            model_name="tasktransaction",
+            name="date",
         ),
         migrations.RemoveField(
-            model_name='tasktransaction',
-            name='status',
+            model_name="tasktransaction",
+            name="status",
         ),
         migrations.RemoveField(
-            model_name='tasktransaction',
-            name='task',
+            model_name="tasktransaction",
+            name="task",
         ),
         migrations.RemoveField(
-            model_name='tasktransaction',
-            name='timestamp_completed',
+            model_name="tasktransaction",
+            name="timestamp_completed",
         ),
     ]

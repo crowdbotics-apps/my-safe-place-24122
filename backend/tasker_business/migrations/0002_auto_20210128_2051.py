@@ -6,48 +6,48 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('tasker_business', '0001_initial'),
+        ("tasker_business", "0001_initial"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='businessphoto',
-            name='photo',
+            model_name="businessphoto",
+            name="photo",
         ),
         migrations.RemoveField(
-            model_name='businessphoto',
-            name='tasker',
+            model_name="businessphoto",
+            name="tasker",
         ),
         migrations.RemoveField(
-            model_name='taskeravailability',
-            name='tasker',
+            model_name="taskeravailability",
+            name="tasker",
         ),
         migrations.RemoveField(
-            model_name='taskerskill',
-            name='category',
+            model_name="taskerskill",
+            name="category",
         ),
         migrations.RemoveField(
-            model_name='taskerskill',
-            name='description',
+            model_name="taskerskill",
+            name="description",
         ),
         migrations.RemoveField(
-            model_name='taskerskill',
-            name='name',
+            model_name="taskerskill",
+            name="name",
         ),
         migrations.RemoveField(
-            model_name='taskerskill',
-            name='rate',
+            model_name="taskerskill",
+            name="rate",
         ),
         migrations.RemoveField(
-            model_name='taskerskill',
-            name='tasker',
+            model_name="taskerskill",
+            name="tasker",
         ),
         migrations.RemoveField(
-            model_name='timeslot',
-            name='date',
+            model_name="timeslot",
+            name="date",
         ),
         migrations.RemoveField(
-            model_name='timeslot',
-            name='start_time',
+            model_name="timeslot",
+            name="start_time",
         ),
     ]

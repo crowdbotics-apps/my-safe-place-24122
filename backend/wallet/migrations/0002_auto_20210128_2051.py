@@ -6,60 +6,60 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('wallet', '0001_initial'),
+        ("wallet", "0001_initial"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='paymenttransaction',
-            name='customer',
+            model_name="paymenttransaction",
+            name="customer",
         ),
         migrations.RemoveField(
-            model_name='paymenttransaction',
-            name='price',
+            model_name="paymenttransaction",
+            name="price",
         ),
         migrations.RemoveField(
-            model_name='paymenttransaction',
-            name='tasker',
+            model_name="paymenttransaction",
+            name="tasker",
         ),
         migrations.RemoveField(
-            model_name='paymenttransaction',
-            name='timestamp_created',
+            model_name="paymenttransaction",
+            name="timestamp_created",
         ),
         migrations.RemoveField(
-            model_name='paymenttransaction',
-            name='tip',
+            model_name="paymenttransaction",
+            name="tip",
         ),
         migrations.RemoveField(
-            model_name='paymenttransaction',
-            name='tracking_id',
+            model_name="paymenttransaction",
+            name="tracking_id",
         ),
         migrations.RemoveField(
-            model_name='paymenttransaction',
-            name='transaction',
+            model_name="paymenttransaction",
+            name="transaction",
         ),
         migrations.RemoveField(
-            model_name='taskerpaymentaccount',
-            name='account_token',
+            model_name="taskerpaymentaccount",
+            name="account_token",
         ),
         migrations.RemoveField(
-            model_name='taskerpaymentaccount',
-            name='payment_account',
+            model_name="taskerpaymentaccount",
+            name="payment_account",
         ),
         migrations.RemoveField(
-            model_name='taskerpaymentaccount',
-            name='wallet',
+            model_name="taskerpaymentaccount",
+            name="wallet",
         ),
         migrations.RemoveField(
-            model_name='taskerwallet',
-            name='balance',
+            model_name="taskerwallet",
+            name="balance",
         ),
         migrations.RemoveField(
-            model_name='taskerwallet',
-            name='expiration_date',
+            model_name="taskerwallet",
+            name="expiration_date",
         ),
         migrations.RemoveField(
-            model_name='taskerwallet',
-            name='tasker',
+            model_name="taskerwallet",
+            name="tasker",
         ),
     ]

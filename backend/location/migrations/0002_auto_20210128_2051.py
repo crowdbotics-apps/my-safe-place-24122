@@ -6,56 +6,56 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('location', '0001_initial'),
+        ("location", "0001_initial"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='customerlocation',
-            name='country',
+            model_name="customerlocation",
+            name="country",
         ),
         migrations.RemoveField(
-            model_name='customerlocation',
-            name='customer',
+            model_name="customerlocation",
+            name="customer",
         ),
         migrations.RemoveField(
-            model_name='customerlocation',
-            name='zip',
+            model_name="customerlocation",
+            name="zip",
         ),
         migrations.RemoveField(
-            model_name='maplocation',
-            name='latitude',
+            model_name="maplocation",
+            name="latitude",
         ),
         migrations.RemoveField(
-            model_name='maplocation',
-            name='name',
+            model_name="maplocation",
+            name="name",
         ),
         migrations.RemoveField(
-            model_name='taskerlocation',
-            name='address',
+            model_name="taskerlocation",
+            name="address",
         ),
         migrations.RemoveField(
-            model_name='taskerlocation',
-            name='last_updated',
+            model_name="taskerlocation",
+            name="last_updated",
         ),
         migrations.RemoveField(
-            model_name='taskerlocation',
-            name='latitude',
+            model_name="taskerlocation",
+            name="latitude",
         ),
         migrations.RemoveField(
-            model_name='taskerlocation',
-            name='longitude',
+            model_name="taskerlocation",
+            name="longitude",
         ),
         migrations.RemoveField(
-            model_name='taskerlocation',
-            name='tasker',
+            model_name="taskerlocation",
+            name="tasker",
         ),
         migrations.RemoveField(
-            model_name='tasklocation',
-            name='address',
+            model_name="tasklocation",
+            name="address",
         ),
         migrations.RemoveField(
-            model_name='tasklocation',
-            name='location',
+            model_name="tasklocation",
+            name="location",
         ),
     ]

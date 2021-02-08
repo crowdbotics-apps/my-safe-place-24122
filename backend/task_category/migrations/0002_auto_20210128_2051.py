@@ -6,16 +6,16 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('task_category', '0001_initial'),
+        ("task_category", "0001_initial"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='subcategory',
-            name='category',
+            model_name="subcategory",
+            name="category",
         ),
         migrations.RemoveField(
-            model_name='subcategory',
-            name='name',
+            model_name="subcategory",
+            name="name",
         ),
     ]

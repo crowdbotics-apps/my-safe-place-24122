@@ -6,88 +6,88 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('task_profile', '0001_initial'),
+        ("task_profile", "0001_initial"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='customerprofile',
-            name='last_updated',
+            model_name="customerprofile",
+            name="last_updated",
         ),
         migrations.RemoveField(
-            model_name='customerprofile',
-            name='mobile_number',
+            model_name="customerprofile",
+            name="mobile_number",
         ),
         migrations.RemoveField(
-            model_name='customerprofile',
-            name='photo',
+            model_name="customerprofile",
+            name="photo",
         ),
         migrations.RemoveField(
-            model_name='customerprofile',
-            name='timestamp_created',
+            model_name="customerprofile",
+            name="timestamp_created",
         ),
         migrations.RemoveField(
-            model_name='customerprofile',
-            name='user',
+            model_name="customerprofile",
+            name="user",
         ),
         migrations.RemoveField(
-            model_name='invitecode',
-            name='code',
+            model_name="invitecode",
+            name="code",
         ),
         migrations.RemoveField(
-            model_name='invitecode',
-            name='user',
+            model_name="invitecode",
+            name="user",
         ),
         migrations.RemoveField(
-            model_name='notification',
-            name='message',
+            model_name="notification",
+            name="message",
         ),
         migrations.RemoveField(
-            model_name='notification',
-            name='type',
+            model_name="notification",
+            name="type",
         ),
         migrations.RemoveField(
-            model_name='notification',
-            name='user',
+            model_name="notification",
+            name="user",
         ),
         migrations.RemoveField(
-            model_name='taskerprofile',
-            name='city',
+            model_name="taskerprofile",
+            name="city",
         ),
         migrations.RemoveField(
-            model_name='taskerprofile',
-            name='closing_message',
+            model_name="taskerprofile",
+            name="closing_message",
         ),
         migrations.RemoveField(
-            model_name='taskerprofile',
-            name='description',
+            model_name="taskerprofile",
+            name="description",
         ),
         migrations.RemoveField(
-            model_name='taskerprofile',
-            name='last_login',
+            model_name="taskerprofile",
+            name="last_login",
         ),
         migrations.RemoveField(
-            model_name='taskerprofile',
-            name='last_updated',
+            model_name="taskerprofile",
+            name="last_updated",
         ),
         migrations.RemoveField(
-            model_name='taskerprofile',
-            name='mobile_number',
+            model_name="taskerprofile",
+            name="mobile_number",
         ),
         migrations.RemoveField(
-            model_name='taskerprofile',
-            name='photo',
+            model_name="taskerprofile",
+            name="photo",
         ),
         migrations.RemoveField(
-            model_name='taskerprofile',
-            name='timestamp_created',
+            model_name="taskerprofile",
+            name="timestamp_created",
         ),
         migrations.RemoveField(
-            model_name='taskerprofile',
-            name='user',
+            model_name="taskerprofile",
+            name="user",
         ),
         migrations.RemoveField(
-            model_name='taskerprofile',
-            name='vehicle',
+            model_name="taskerprofile",
+            name="vehicle",
         ),
     ]
